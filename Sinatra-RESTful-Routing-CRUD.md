@@ -153,11 +153,10 @@ If it finds a request with `name=_method`, it will set the request type based on
 
 ## CRUD with Active Record
 
-Model = placeholder word for whatever model you are working within your app.
+>Model = placeholder word for whatever model you are working within your app.
 
   - Create: `Model.create`
   - Read: `Model.all` and `Model.find_by_id(id_number)`
   - Update: `Model.update`
   - Delete: `Model.destroy`
 
-  

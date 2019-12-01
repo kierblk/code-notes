@@ -1,5 +1,9 @@
 # Sinatra RESTful Routing & CRUD
 
+**Video Resources:**
+1. [Sinatra RESTful Routing & CRUD Flatiron Study Group, PT 1](https://youtu.be/-S540yM5brY)
+2. [Sinatra RESTful Routing & CRUD Flatiron Study Group, PT 2](https://youtu.be/OK8QYOKoH7g)
+
 ### Random Notes
   
 Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should you want to be explicit. However, Sinatra knows to render the HTML properly within the `.erb` files. This is not Sinatra convention and may require you to add `.html` to routes to a `.html.erb` file. 
@@ -15,6 +19,8 @@ Commenting ruby within an `.erb` file:
 ```html
 <!-- comment for HTML -->
 ```
+Q. Static Routes vs. Dynamic Routes, which ones come first in the list?
+A. Static routes must come first before dynamic routes, otherwise, your static routes will "match" a dynamic route and throw an error. 
 
 ### MVC: Model, View, Controller
 
@@ -155,8 +161,8 @@ If it finds a request with `name=_method`, it will set the request type based on
 
 >Model = placeholder word for whatever model you are working within your app.
 
-  - Create: `Model.create`
-  - Read: `Model.all` and `Model.find_by_id(id_number)`
-  - Update: `Model.update`
-  - Delete: `Model.destroy`
+- Create: `Model.create`
+- Read: `Model.all` and `Model.find_by_id(id_number)`
+- Update: `Model.update`
+- Delete: `Model.destroy`
 

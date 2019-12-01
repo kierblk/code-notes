@@ -114,6 +114,8 @@ end
 
 ## Use Rack::MethodOverride for PATCH requests and DELETE requests
 
+**WHY?** We are using a rack based system, in order to get a request to respond to something other than "get" or "post", you need to use this override method that comes built into rack.
+
 We need to update out `config.ru` file to use the Sinatra middleware that allows us to send patch requests.
 `use Rack::MethodOverride` needs to be placed above the mounting for the Application Controller. 
 

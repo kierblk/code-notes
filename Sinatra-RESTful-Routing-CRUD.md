@@ -15,7 +15,7 @@ Using a resaurant analogy, responsibilities/functions explained:
 
 CRUD: Create, Read, Update, Delete
 
-### What is RESTful Routing, anyways?
+## What is RESTful Routing, anyways?
 
 Super-high level, a set of conventions for routing, for transfering data from one place to another. Allows a set of developers to better follow and undestand what other developers are intending in their code. However, there are always situations where convention can be broken. 
 
@@ -34,7 +34,7 @@ Routing is simply a combination of an HTTP verb along with a URI.
 | PUT       | /models/:id      | Update | Replaces an existing model based on ID in URI |
 | DELETE    | /models/:id      | Delete | Deletes one model based on ID in URI          |
 
-#### Index Action
+## Index Action
 
 ```ruby
 get '/models' do
@@ -42,7 +42,7 @@ get '/models' do
 end
 ```
 
-#### New Action
+## New Action
 
 ```ruby
 get '/models/new' do
@@ -58,7 +58,7 @@ post '/models' do
 end
 ```
 
-#### Show Action
+## Show Action
 
 ```ruby
 get '/model/:id' do
@@ -67,7 +67,7 @@ get '/model/:id' do
 end
 ```
 
-#### Edit Action
+## Edit Action
 
 ```ruby
 get '/models/:id/edit' do
@@ -84,7 +84,7 @@ patch '/models/:id' do
 end
 ```
 
-#### Delete Action
+## Delete Action
 
 ```ruby
 delete '/models/:id/delete' do

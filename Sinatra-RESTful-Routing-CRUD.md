@@ -141,3 +141,23 @@ If it finds a request with `name=_method`, it will set the request type based on
 |-------------------------------------------------------------------------|
 | `get '/models/:id'` -------------> `show.erb` with delete "form button" |
 | `post '/models/:id/delete'` <----- `show.erb` with delete "form button" |
+
+## Gems Needed
+
+1. activerecord: provides magical db mapping and association powers
+2. rake: allows us to quickly create files and folders and automate tasks such as database creation
+3. sinatra-activerecord: gives us access to some awesome rake tasks
+4. thin: allows us to use shotgun server
+5. sqlite3: database adapter gem
+6. tux: an interactive console that pre-loads our database and active record relationships
+
+## CRUD with Active Record
+
+Model = placeholder word for whatever model you are working within your app.
+
+  - Create: `Model.create`
+  - Read: `Model.all` and `Model.find_by_id(id_number)`
+  - Update: `Model.update`
+  - Delete: `Model.destroy`
+
+  

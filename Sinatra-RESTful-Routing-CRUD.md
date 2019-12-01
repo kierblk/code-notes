@@ -122,6 +122,11 @@ If it finds a request with `name=_method`, it will set the request type based on
 
 ## CRUD Visual Summary
 
+| CREATE                                       |
+|----------------------------------------------|
+| `get '/models/new'` -------------> `new.erb` |
+| `post '/models'` <---------------- `new.erb` |
+
 **CREATE**
 `get '/models/new'` -------------> `new.erb`
 `post '/models'` <---------------- `new.erb`

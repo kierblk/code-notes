@@ -167,4 +167,3 @@ If it finds a request with `name=_method`, it will set the request type based on
 - Read: `Model.all` and `Model.find_by_id(id_number)`
 - Update: `Model.update`
 - Delete: `Model.destroy`
-

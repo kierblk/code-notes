@@ -1,6 +1,6 @@
 # Sinatra RESTful Routing & CRUD
 
-## Random Notes
+### Random Notes
   
 Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should you want to be explicit. However, Sinatra knows to render the HTML properly within the `.erb` files. 
 

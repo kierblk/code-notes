@@ -150,7 +150,7 @@ If it finds a request with `name=_method`, it will set the request type based on
 | DELETE                                                                  |
 |-------------------------------------------------------------------------|
 | `get '/models/:id'` -------------> `show.erb` with delete "form button" |
-| `post '/models/:id/delete'` <----- `show.erb` with delete "form button" |
+| `delete '/models/:id/delete'` <----- `show.erb` with delete "form button" |
 
 ## Gems Needed
 

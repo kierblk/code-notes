@@ -19,9 +19,9 @@ Commenting ruby within an `.erb` file:
 ```html
 <!-- comment for HTML -->
 ```
-Q. Static Routes vs. Dynamic Routes, which ones come first in the list?
+**Q.** Static Routes vs. Dynamic Routes, which ones come first in the list?
 
-A. Static routes must come first before dynamic routes, otherwise, your static routes will "match" a dynamic route and throw an error. 
+**A.** Static routes must come first before dynamic routes, otherwise, your static routes will "match" a dynamic route and throw an error. 
 
 ### MVC: Model, View, Controller
 

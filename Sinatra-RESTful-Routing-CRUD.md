@@ -99,7 +99,7 @@ end
 ```html
 <form action="/models/<%= @model.id %>/delete" method="post">
     <input type="hidden" name="_method" value="patch/delete">
-    <input type="submit" value="delete">
+    <input type="submit" value="update/delete">
 </form>
 ```
 

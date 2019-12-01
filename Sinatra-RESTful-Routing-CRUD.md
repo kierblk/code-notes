@@ -1,5 +1,11 @@
 # Sinatra RESTful Routing & CRUD
 
+## Random Notes
+  
+Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should you want to be explicit. However, Sinatra knows to render the HTML properly within the `.erb` files. 
+
+Rails, on the other hand, requires the explicit `.html.erb` file type to render properly.
+
 ### MVC: Model, View, Controller
 
 Using a resaurant analogy, responsibilities/functions explained:

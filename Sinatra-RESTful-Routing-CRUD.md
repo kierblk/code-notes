@@ -2,7 +2,7 @@
 
 ### Random Notes
   
-Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should you want to be explicit. However, Sinatra knows to render the HTML properly within the `.erb` files. 
+Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should you want to be explicit. However, Sinatra knows to render the HTML properly within the `.erb` files. This is not Sinatra convention and may require you to add `.html` to routes to a `.html.erb` file. 
 
 Rails, on the other hand, requires the explicit `.html.erb` file type to render properly.
 
@@ -94,7 +94,7 @@ delete '/models/:id/delete' do
 end
 ```
 
-**Use Rack::MethodOverride**
+**Use Rack::MethodOverride for PATCH requests and DELETE requests**
 
 ```html
 <form action="/models/<%= @model.id %>/delete" method="post">
@@ -102,3 +102,4 @@ end
     <input type="submit" value="delete">
 </form>
 ```
+

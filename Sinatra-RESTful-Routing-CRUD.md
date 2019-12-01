@@ -6,6 +6,16 @@ Sinatra view files are `.erb` but you are also allowed to use `.html.erb` should
 
 Rails, on the other hand, requires the explicit `.html.erb` file type to render properly.
 
+Commenting ruby within an `.erb` file:
+```ruby
+<%#= comment for ruby code %>
+<%# Also a comment for ruby code %>
+```
+
+```html
+<!-- comment for HTML -->
+```
+
 ### MVC: Model, View, Controller
 
 Using a resaurant analogy, responsibilities/functions explained:
@@ -67,7 +77,7 @@ get '/model/:id' do
 end
 ```
 
-## Edit Action
+## Edit / Update Action
 
 ```ruby
 get '/models/:id/edit' do
@@ -94,12 +104,36 @@ delete '/models/:id/delete' do
 end
 ```
 
-**Use Rack::MethodOverride for PATCH requests and DELETE requests**
+## Use Rack::MethodOverride for PATCH requests and DELETE requests
+
+We need to update out `config.ru` file to use the Sinatra middleware that allows us to send patch requests.
+`use Rack::MethodOverride` needs to be placed above the mounting for the Application Controller. 
+
+The method override middleware will intercept every request sent and received by our application.
+
+If it finds a request with `name=_method`, it will set the request type based on what is set in the value attribute. 
 
 ```html
-<form action="/models/<%= @model.id %>/delete" method="post">
+<form action="/models/:id/delete" method="post">
     <input type="hidden" name="_method" value="patch/delete">
     <input type="submit" value="update/delete">
 </form>
 ```
 
+## CRUD Visual Summary
+
+**CREATE**
+`get '/models/new'` -------------> `new.erb`
+`post '/models'` <---------------- `new.erb`
+
+**READ**
+`get '/models'` -----------------> `index.erb`
+`get 'models/:id'` --------------> `show.erb`
+
+**UPDATE**
+`get '/models/:id/edit'` --------> `edit.erb`
+`patch '/models/:id'` <----------- `edit.erb`
+
+**DELETE**
+`get '/models/:id'` -------------> `show.erb` with delete "form button"
+`post '/models/:id/delete'` <----- `show.erb` with delete "form button"

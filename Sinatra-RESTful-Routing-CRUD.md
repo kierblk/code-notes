@@ -127,18 +127,17 @@ If it finds a request with `name=_method`, it will set the request type based on
 | `get '/models/new'` -------------> `new.erb` |
 | `post '/models'` <---------------- `new.erb` |
 
-**CREATE**
-`get '/models/new'` -------------> `new.erb`
-`post '/models'` <---------------- `new.erb`
+| READ                                           |
+|------------------------------------------------|
+| `get '/models'` -----------------> `index.erb` |
+| `get 'models/:id'` --------------> `show.erb`  |
 
-**READ**
-`get '/models'` -----------------> `index.erb`
-`get 'models/:id'` --------------> `show.erb`
+| UPDATE                                        |
+|-----------------------------------------------|
+| `get '/models/:id/edit'` --------> `edit.erb` |
+| `patch '/models/:id'` <----------- `edit.erb` |
 
-**UPDATE**
-`get '/models/:id/edit'` --------> `edit.erb`
-`patch '/models/:id'` <----------- `edit.erb`
-
-**DELETE**
-`get '/models/:id'` -------------> `show.erb` with delete "form button"
-`post '/models/:id/delete'` <----- `show.erb` with delete "form button"
+| DELETE                                                                  |
+|-------------------------------------------------------------------------|
+| `get '/models/:id'` -------------> `show.erb` with delete "form button" |
+| `post '/models/:id/delete'` <----- `show.erb` with delete "form button" |

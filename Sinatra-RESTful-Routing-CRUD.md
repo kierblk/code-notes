@@ -3,9 +3,9 @@
 ### MVC: Model, View, Controller
 
 Using a resaurant analogy, responsibilities/functions explained:
-    - Model - Our kitchen, takes ingredients and turns them into "objects"
-    - View - Our table, what our customers are looking at
-    - Controller - Our waiter, goes between the kitchen and the table
+  - Model - Our kitchen, takes ingredients and turns them into "objects"
+  - View - Our table, what our customers are looking at
+  - Controller - Our waiter, goes between the kitchen and the table
 
 CRUD: Create, Read, Update, Delete
 

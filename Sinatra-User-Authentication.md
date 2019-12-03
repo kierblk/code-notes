@@ -6,7 +6,7 @@ Using sessions!
 
 Action of logging in is the simple action of storing a user's ID in the session hash.
 
-### Basic User Flow
+#### Basic User Flow
 
 1. User visits the login page, fills out the form with their email and password. Submit button will POST the data to the controller route.
 2. The controller route accesses the users email and password from the params hash. That info is used to find the appropriate user from the database with a line such as `User.find_by(email: params[:email], password: params["password])`. Then, that user's ID is stored as the value of `session[:user_id]`.

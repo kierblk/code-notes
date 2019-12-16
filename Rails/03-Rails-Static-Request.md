@@ -26,3 +26,49 @@ The flow that takes place when a user attempts to go to a page on a Rails applic
 
 ## Implementing a Static Route
 
+```ruby
+get 'about', to: 'static#about'
+```
+
+Let's look at the components that make up this route code:
+
+- The HTTP verb - in this case we're using the `get` HTTP verb.
+
+- The path - `'about'` represents the path in the URL bar that the route will be mapped to.
+
+- The controller action - `'static#about'` tells the Rails routing system that this route should be passed through the `static` controller's `about` action. If the term `action` sounds foreign, actions are just Ruby speak for a method in a controller. So in the `StaticController` will be a method called `about` that gets called when a user goes to `/about`.
+
+>NOTE: As long as your changes are within the app directory, you can keep the server going; only code changes outside of the app directory require stopping and starting the Rails server.
+
+It's important to understand the difference between explicit and implicit rendering for the views:
+
+- **Explicit rendering** - for explicit rendering, Rails lets you dictate which view file you want to have the controller action mapped to.
+
+```ruby
+def about
+  render "some_page"
+end
+```
+
+- **Implicit rendering** - for implicit rendering, Rails follows a standard convention that automatically looks for the view file with the same name as the controller action.
+
+```ruby
+def about
+end
+
+# And this empty method will render the `about.html.erb` view
+```
+
+Whoa! How is an empty method generating the same behavior as when we were calling the view template directly?
+
+This follows along with the popular 'convention over configuration' pattern that Rails utilizes. This means that the Rails core team has built out a number of standardized processes, such as implicit view rendering to help make development life a little easier. 
+
+It's not some kind of black code magic; behind the scenes, Rails has a large number of complex processes that make things like implicit view rendering work properly.
+
+**So is explicit or implicit better?**
+
+Typically, you will find that you want to utilize the **implicit** workflow in your day to day coding practice. The rationale is quite practical. Imagine that you are taking over a legacy Rails project. As you are getting acclimated to the code, would you prefer that the previous dev followed a standard naming process, or would you rather be forced to look through each controller to see how the controller actions were mapped to the views? 
+
+Rails has always had the goal of making the development process as efficient as possible, which is why it is typically best to follow these types of implicit procedures. 
+
+With that being said, it is important to understand how the views are mapped to the controller, which is why we also walked through the explicit process.

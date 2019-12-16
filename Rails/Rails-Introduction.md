@@ -1,11 +1,4 @@
-# Rails Introduction
-
-TOC:
-1. [Rails Application Basics](https://github.com/saramccombs/rails-application-basics-readme)
-
-----
-
-## Rails Application Basics
+# Rails Application Basics
 
 **Why use a Framework?**
 
@@ -27,11 +20,11 @@ A couple of things...
 
 - A slow framework. Due to the fact that ROR is one of the most straightforward frameworks to learn, it can lead to a number of poor coding practices from beginners. However, if built properly, Rails projects can be as fast as any other framework. Furthermore, Rails service-based architecture makes it a perfect canidate for microservice applications, which can be some of the fastest and best performing applications on the web.
 
-### Installing the Rails Gem for Local Users
+## Installing the Rails Gem for Local Users
 
 ```gem install rails``
 
-### Generating a New Rails Application
+## Generating a New Rails Application
 
 ```rails new blog-flash``` 
 
@@ -39,7 +32,7 @@ A couple of things...
 
 - There are a number of naming conventions for Rails app names, typically you want to use all lower case letters seperated by "-"
 
-### Rails File Structure Overview
+## Rails File Structure Overview
 
 Here's a breakdown of each directory:
 
@@ -69,11 +62,11 @@ Here's a breakdown of each directory:
 
 - **README.rdoc** – the readme file is an important place to document the details of the application. If the application is an open-source project, this is where you can place instructions to other developers, such as how to get the app up and running locally.
 
-### Creating the Database
+## Creating the Database
 
 ``` rake db:create```
 
-### Starting Up the Rails Server
+## Starting Up the Rails Server
 
 ``` rails s```
 
@@ -83,7 +76,7 @@ Here you will see the 'Yay! You're on Rails!' page that ships with Rails.
 
 In order to shutdown the server, use the keyboard combo `CTRL+C`
 
-### Using the Rails Console
+## Using the Rails Console
 
 Rails console is an important tool. This gives your a direct connection to your applications ecosyste, and lets you perform tasks.
 

@@ -1,4 +1,4 @@
-# Rails MVC
+# [Rails MVC](https://github.com/saramccombs/rails-model-view-controller-readme)
 
 In order to ensure that applications have a specific organizational structure, the creator of rails utilized the MVC architecture.
 

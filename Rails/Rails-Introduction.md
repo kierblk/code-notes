@@ -22,7 +22,7 @@ A couple of things...
 
 ## Installing the Rails Gem for Local Users
 
-```gem install rails``
+```gem install rails```
 
 ## Generating a New Rails Application
 

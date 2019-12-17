@@ -11,3 +11,7 @@ Please feel free to add resources that you find useful.
 ## Color
 
 1. [https://mycolor.space](https://mycolor.space)
+
+## Markdown
+
+1. [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)

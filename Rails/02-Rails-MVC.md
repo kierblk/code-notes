@@ -26,7 +26,7 @@ As an example, imagine that you have a blog that has a database table called `po
 
 ## Request Flow
 
-![Request Flow Chart](../images/rails-request-flow.png)
+![MVC Request Flow](https://s3.amazonaws.com/flatiron-bucket/readme-lessons/mvc_flow_updated.png)
 
 ## Roles and Responsibilities
 

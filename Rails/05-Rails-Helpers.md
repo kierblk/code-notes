@@ -63,6 +63,8 @@ Whenever you have `id` parameters listed in the path like this, you will need to
 
 This column shows the controller and action with a syntax of `controller#action`.
 
+----
+
 One of the other nice things about utilizing route helper methods is that they create predictable names for the methods. Once you get into day-to-day Rails development, you will only need to run `rails routes` to find custom paths.
 
 Let's imagine that you take over a legacy Rails application that was built with traditional routing conventions. If you see CRUD controllers for newsletters, students, sales, offers, and coupons, you don't have to look up the routes to know that you could call the index URLs for each resource below:

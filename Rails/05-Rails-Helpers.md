@@ -63,7 +63,7 @@ Whenever you have `id` parameters listed in the path like this, you will need to
 
 This column shows the controller and action with a syntax of `controller#action`.
 
-----
+## Routes Summary
 
 One of the other nice things about utilizing route helper methods is that they create predictable names for the methods. Once you get into day-to-day Rails development, you will only need to run `rails routes` to find custom paths.
 
@@ -76,3 +76,49 @@ Let's imagine that you take over a legacy Rails application that was built with 
 - Coupons - `coupons_path`
 
 This is an example of the Rails design goal: "convention over configuration." Rails' convention is that resources are accessible through their pluralized name with `_path` tacked on. Since all Rails developers honor these conventions, Rails developers rapidly come to feel at home in other Rails developers' codebases.
+
+## `link_to` Helper Method
+
+```ruby
+<% @posts.each do |post| %>
+  <div><a href='<%= "/posts/#{post.id}" %>'><%= post.title %></a></div>
+<% end %>
+```
+
+becomes...using the `link_to` helper method.
+
+```ruby
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, "/posts/#{post.id}" %></div>
+<% end %>
+```
+
+But, let's not stop there. Let's refactor. Instead of hard-coding the path and using string interpolation, let's use `post_path` and pass in the `post` argument.
+
+```ruby
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post.id) %></div>
+<% end %>
+```
+
+Now, this is better, but we can refactor even further. Rails is smart enough to know that if you pass in the `post` object as an argument, it will automatically use the ID attribute.
+
+```ruby
+<% @posts.each do |post| %>
+  <div><%= link_to post.title, post_path(post) %></div>
+<% end %>
+```
+
+We're using the `link_to` method to automatically create an HTML `a` tag. If you open the browser and inspect the HTML element of the link, you would see the following: `<a href="/posts/1">My Title</a>`
+
+## Using the `:as` option
+
+If for any reason you don't like the naming structure for the methods or paths, you can customize them quite easily. A common change is updating the path users go to in order to register for a site.
+
+If we had a `User` model/controller, in `routes.rb` file, you would add the following line:
+
+```ruby
+get '/users/new', to: 'users#new', as: 'register'
+```
+
+Now the application lets programmers use `register_path` when creating links with `link_to`. Rails leverages routes and these "helper route" names in many places to help you keep your code flexible and brief.

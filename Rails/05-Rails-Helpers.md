@@ -1,4 +1,4 @@
-# Rails Helpers
+# [Rails Helpers](https://github.com/saramccombs/rails-url-helpers-readme-online-web-pt-081219)
 
 Rails is meant to be flexible. As a result, there are typically a number of ways to accomplish the same goals. 
 

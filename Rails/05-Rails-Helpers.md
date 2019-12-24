@@ -69,10 +69,10 @@ One of the other nice things about utilizing route helper methods is that they c
 
 Let's imagine that you take over a legacy Rails application that was built with traditional routing conventions. If you see CRUD controllers for newsletters, students, sales, offers, and coupons, you don't have to look up the routes to know that you could call the index URLs for each resource below:
 
-Newsletters - `newsletters_path`
-Students - `students_path`
-Sales - `sales_path`
-Offers - `offers_path`
-Coupons - `coupons_path`
+- Newsletters - `newsletters_path`
+- Students - `students_path`
+- Sales - `sales_path`
+- Offers - `offers_path`
+- Coupons - `coupons_path`
 
 This is an example of the Rails design goal: "convention over configuration." Rails' convention is that resources are accessible through their pluralized name with `_path` tacked on. Since all Rails developers honor these conventions, Rails developers rapidly come to feel at home in other Rails developers' codebases.

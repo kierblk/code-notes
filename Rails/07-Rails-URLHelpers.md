@@ -1,4 +1,4 @@
-# [Rails Helpers](https://github.com/saramccombs/rails-url-helpers-readme-online-web-pt-081219)
+# [Rails URL Helpers](https://github.com/saramccombs/rails-url-helpers-readme-online-web-pt-081219)
 
 Rails is meant to be flexible. As a result, there are typically a number of ways to accomplish the same goals. 
 
@@ -122,3 +122,7 @@ get '/users/new', to: 'users#new', as: 'register'
 ```
 
 Now the application lets programmers use `register_path` when creating links with `link_to`. Rails leverages routes and these "helper route" names in many places to help you keep your code flexible and brief.
+
+## Documentation
+
+[Rails URL Helper Docs](https://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)

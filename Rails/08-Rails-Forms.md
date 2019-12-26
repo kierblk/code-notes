@@ -8,6 +8,10 @@
 
 When it comes to forms within Rails, you wull discover that you will have the flexibility to utilize both **built-in form helper methods** as well as **plain HTML form elements**.
 
+## Documentation
+
+[ROR ActionView::Helpers::FormTagHelpers](https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)
+
 ## Building the Form in HTML
 
 First pass, plain HTML. Not going to focus on creating records in a DB, just the form process.

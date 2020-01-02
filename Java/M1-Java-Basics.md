@@ -104,10 +104,10 @@ In Java, a String is any sequence of characters – letters, digits, spaces, pun
 
 | escape  sequence | Name         | Example           | String as printed |
 |------------------|--------------|-------------------|-------------------|
-| ""               | Double Quote | "John \"JJ\" Doe" | John "JJ" Doe     |
-| \                | Backslash    | "Use \\, not /"   | Use \, not /      |
-| \t               | Tab          | "1\titem"         | 1    item         |
-| \n               | New line     | "line 1\nline 2"  | line 1   line 2   |
+| ""               | Double Quote | John \"JJ\" Doe | John "JJ" Doe     |
+| \                | Backslash    | Use \\, not /   | Use \, not /      |
+| \t               | Tab          | 1\titem         | 1    item         |
+| \n               | New line     | line 1\nline 2  | line 1   line 2   |
 
 
 ### Printlns

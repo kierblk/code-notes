@@ -163,3 +163,50 @@ line 1
 line 2
 line 3
 ```
+
+## Self-Check
+
+### 1. What is the output of
+```Java
+System.out.println("\"Quotes\"");
+System.out.println("Slashes \\//");
+System.out.println("How '\"confounding' \"\\\" it is!");
+```
+
+#### Answer
+
+```
+"Quotes"
+Slashes \//
+How '"confounding' "\" it is!
+```
+
+### 2. Write a complete Java program in a class named WellFormed that prints the following output:
+
+```
+A well-formed Java program has
+a main method with { and }
+braces.
+
+A System.out.println statement
+has ( and ) and usually a
+String that starts and ends
+with a " character.
+(But we type \" instead!)
+```
+
+#### Answer
+
+```Java
+/* 
+WellFormed
+*/
+
+public class WellFormed {
+    public static void main(String[] args){
+    System.out.println("A well-formed Java program has\na main method with { and }\nbraces.\n\nA System.out.println statement\nhas ( and ) and usually a\nString that starts and ends\nwith a \" character.\n(But we type \\\" instead!)");    
+    }
+}
+```
+
+

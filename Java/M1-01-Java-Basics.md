@@ -12,20 +12,13 @@ Mod 1 covers:
 
 ----
 
-Java is an Object-Oriented Language.
+Java is an Object-Oriented Language, a compiled language, and has memory management.
 
-Java is a compiled language.
-
-Java has memory management.
-
-Released in 1996 by Sun Microsystems, specifically designed Java so you could write it once and run it anywhere.
-This is the compile step.
-
-In 2010 Oracle acquired Sun.
+Released in 1996 by Sun Microsystems, and in 2010 Oracle acquired Sun.
 
 ## Naming conventions
 
-Java is case sensitive. `MyClassNam` != `myclassname`.
+Java is case sensitive. `MyClassName` != `myclassname`.
 
 Java uses camel casing, where you capitalize the first letter of every word with no spaces between words.
 
@@ -43,7 +36,7 @@ public class HelloWorld {
 ## Anatomy of a Java Program
 
 
-1. Class - the outermost layer of the program
+### 1. Class - the outermost layer of the program
 
 This always starts the same way, with the keywords `public class`
 
@@ -54,7 +47,7 @@ public class HelloWorld {
 
 The class name, here `HelloWorld`, will ALWAYS be the same exact name as the file name.
 
-2. Main Method - the wrapper that tells your computer which lines of code to run.
+### 2. Main Method - the wrapper that tells your computer which lines of code to run.
 
 In Java, this has a very specific set of keywords: `public static void main(String[] args){}`
 
@@ -62,7 +55,7 @@ Between the curly braces are lines of code you wish to run.
 
 Indentation is a readability convention.
 
-3. Statements - the lines of code you wish to run
+### 3. Statements - the lines of code you wish to run
 
 Each line within the main method is called a "statement" and should end with a semi-colon.
 
@@ -83,14 +76,15 @@ There are two different ways to add comments
 
 1. Single line comments
 
-`// comment text, on one line`
+	`// comment text, on one line`
 
-2.Multi line comments
+2. Multi line comments
 
-```Java
-/* comment text
-You can have as many lines as you like
-Between these two indicators 
-*/
-```
+	```Java
+	/* comment text
+	You can have as many lines as you like
+	Between these two indicators 
+	*/
+	```
+## Strings and Printlns
 

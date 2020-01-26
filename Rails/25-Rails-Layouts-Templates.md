@@ -1,0 +1,2 @@
+# Rails - Layouts & Templates
+

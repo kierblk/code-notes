@@ -1,7 +1,5 @@
 # [Rails - Introduction to Authentication and Authorization](https://github.com/saramccombs/introduction-to-authentication-and-authorization)
 
-[lab]()
-
 ## Breaking Down the Authentication and Authorization Problem
 
 We can divide the "who can see what" problem into four smaller, but related

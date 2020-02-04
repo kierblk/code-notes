@@ -4,4 +4,8 @@
 
 2. [Video 2](https://www.youtube.com/watch?time_continue=1&v=OsinhhQLmRk&feature=emb_logo) - Lists have items and Validations
 
-3. [Video 3](https://www.youtube.com/watch?v=UYhkBd2Mnl0) - Refactoring Views into Partials and Helpers
+3. [Video 3](https://www.youtube.com/watch?v=oQcMPaFUtLc&feature=emb_logo) - Marking Items Complete and Incomplete
+
+4. [Video 4](https://www.youtube.com/watch?v=UYhkBd2Mnl0) - Refactoring Views into Partials and Helpers
+
+5. [Video 5](https://www.youtube.com/watch?v=QwtOMp5VD9c&feature=emb_logo) - Deleting Items

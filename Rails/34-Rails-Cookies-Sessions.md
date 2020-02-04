@@ -1,6 +1,6 @@
 # [Rails - Cookies and Sessions](https://github.com/saramccombs/cookies_and_sessions_readme)
 
-[Lab]()
+[Lab](https://github.com/saramccombs/cookies_and_sessions_lab-online-web-pt-081219)
 
 ## Objectives
 

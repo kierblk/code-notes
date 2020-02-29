@@ -28,13 +28,13 @@ DOM programming is using JavaScript to:
 
   Vocabulary that the a person recognizes from memory without the need to decode for understanding.
 
-3.  Explain "just enough JavaScript" concept
+### 3.  Explain "just enough JavaScript" concept
 
   The approach of learning JavaScript sight words as "just enough JavaScript". Meaning, you will learn just a few things to get started without really understanding the full concept.
 
   [MDN's JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
-4.  Write experimental code in Chrome DevTools
+### 4.  Write experimental code in Chrome DevTools
 
   Practicing with a new programming language is exceptionally important. Reading is important, but practice with the code itself is most important.
 
@@ -44,26 +44,26 @@ DOM programming is using JavaScript to:
 
   The console is an environment in the browser where we can type and run arbitrary JavaScript code in the context of the current browser window. The console is sandboxed, meaning the only resources it has access to are those loaded on the current page. Once we start declaring variables and functions in separate JavaScript files, we'll be able to access and play around with them in the console. The console is the single best tool for debugging JavaScript in the browser, so start familiarizing yourself with it now.
 
-5.  Explain that JavaScript has things
+### 5.  Explain that JavaScript has things
 
   Most programming languages call these "types." For the moment we're going to call them Things.
 
   - `number` like 2
   - `string` like "Sara" or 'Sara' using either single or double-quotes
 
-6.  Explain that JavaScript has `variables`
+### 6.  Explain that JavaScript has `variables`
 
   Sometimes you want to hold a String or a Number under another name, this would be called a variable just like any other programming language.
 
   When JavaScript first came out it had only `var`. Now it has `let` and `const` too. We'll cover the differences between these later. They all tell JavaScript, "Hey! This is a name that I'm going to associate with some bit of information."
 
-7.  Explain that JavaScript can compare things
+### 7.  Explain that JavaScript can compare things
 
   Just like with Ruby we can compare things. With JS `=` is assignment also while `==` and `===` are equality comparison operators.
 
   With the ability to compare things, we are able to build logic into our code using if statements.
 
-8.  Explain that JavaScript has `collections`
+### 8.  Explain that JavaScript has `collections`
 
   Sometimes a variable might point to a Thing which actually has multiple Things inside of it. In programming vocabulary, these collection-Things are called Arrays.
 
@@ -73,9 +73,9 @@ DOM programming is using JavaScript to:
     slytherins[0]; //=> "Salazar Slytherin"
     slytherins[1]; //=> "Bellatrix Black"
     slytherins[2]; //=> "Draco Malfoy"
-    ```
+  ```
 
-9.  Explain that JavaScript is object-oriented
+### 9.  Explain that JavaScript is object-oriented
 
   When working with the DOM in JavaScript, many of the Things you encounter are objects. Objects are bits of code you can talk to that know state and behavior. Objects should round out our universe of JavaScript Things along with arrays, strings, and numbers.
 
@@ -128,7 +128,7 @@ Here we can imagine JavaScript doing some calculations to turn the Number 9.57 a
 
 **A very important object when working with the DOM is called document.**
 
-10.  Explain that JavaScript has `loops`
+### 10.  Explain that JavaScript has `loops`
 
   Sometimes you don't want to manually type something out multiple times, but you want to perform some action "for each" element in a collection. That's where looping comes in.
 
@@ -146,7 +146,7 @@ for (let i = 0; i < slytherins.length; i = i + 1) {
 
   The important thing to take away is the ability to "sight read" that for invokes the idea of doing some repeating action for each element in a collection.
 
-11. Explain that JavaScript `logs` with `console.log`
+### 11. Explain that JavaScript `logs` with `console.log`
 
   In the examples that follow, and in much of the technical documentation of JavaScript, you will see the following method used: console.log(). This method is used to print something. Often it's used to print out a variable or some bit of data to make a point or to debug something.
 

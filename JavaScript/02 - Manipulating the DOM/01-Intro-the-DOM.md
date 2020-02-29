@@ -16,7 +16,7 @@ DOM programming is using JavaScript to:
 
 ## Learning Goals
 
-1.  Explain the JavaScript / DOM relationship
+### 1.  Explain the JavaScript / DOM relationship
 
   JavaScript changes are made through a middle layer called the DOM.
 
@@ -24,7 +24,7 @@ DOM programming is using JavaScript to:
 
   DOM only knows how to be spoken to in JavaScript.
 
-2.  Explain "sight words"
+### 2.  Explain "sight words"
 
   Vocabulary that the a person recognizes from memory without the need to decode for understanding.
 

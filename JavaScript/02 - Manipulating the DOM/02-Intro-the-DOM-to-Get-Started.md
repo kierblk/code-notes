@@ -13,6 +13,53 @@
   Your DNA represents a code-based version of you.
   The DOM represents a code-based version of a web page. 
 
+  #### Is the HTML you write the DOM?
+
+  Nope. Not really. But the HTML you write is parsed by the browser and turned into DOM.
+
+  #### Is 'View Source' the DOM?
+
+  Nope. Not really. View source just shows you the HTML that makes up that page. It's probably the exact HTML that was written but it might look a little different in certain situations.
+
+  #### Is the code in DevTools the DOM?
+
+  Yes! Kinda. When you're looking at the panel in whatever DevTools you are using tht shows you stuff that looks like HTML, that is a visual representation of the DOM. 
+
+  **But it looks exactly like my HTML?!?**
+
+  Yeah, it can. It was created directly from your HTML. In most simple cases, the visual representation of the DOM will be just like your simple HTML.
+
+  But its often not the same.
+
+  #### When is the DOM different than the HTML?
+
+  1. One possibility is that there are mistakes within your HTML and the browser has fixed them for you.
+
+  2. More than likely its because JavaScript is manipulating the DOM
+
+  Imagine you have an empty element like this in your HTML:
+
+  ```HTML
+  <div id="container"></div>
+  ```
+
+  Then later in your HTML, there is a bit of JavaScript:
+
+  ```JavaScript
+  <script>
+    var container = document.getElementById("container");
+    container.innerHTML = "New Content!";
+  </script>
+  ```
+
+  If you use DEvTools to check out the visual representation of the DOM, you'll see:
+
+  ```HTML
+  <div id="container">New Content!</div>
+  ```
+
+  Which is different than your original HTML or what you would see in View Source.
+
 ### 2. Explain how the DOM is created
 
   The DOM is created when the page loads from the HTML that the web server provides the browser.

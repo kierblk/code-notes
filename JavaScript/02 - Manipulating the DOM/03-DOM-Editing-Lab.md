@@ -7,7 +7,7 @@
 
 ## Learning Goals
 
-  1. Identify that DOM nodes are written as HTML
+  ### 1. Identify that DOM nodes are written as HTML
 
 When viewing the DOM we see HTML that is a clone of the HTML found in the source HTML file. However, DOM nodes represent all components that make up a web page.
 
@@ -39,6 +39,6 @@ In self-closing tags, the trailing / is optional. This is valid too:
 
 Every HTML element has a display value. Since these are known by modern browsers, you don't have to worry about specifying the value unless you want to change it. This value can be many things (including none, which hides the elements), but the default value for most elements is either block or inline. For the images above, the value is inline. 
 
-  2. DOM Tree
+  ### 2. DOM Tree
 
   When you expand out a DOM node and all its children, this is called a DOM Tree.

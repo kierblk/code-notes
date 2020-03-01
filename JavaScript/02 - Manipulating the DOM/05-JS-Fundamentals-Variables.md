@@ -11,8 +11,17 @@
 
 ## Learning Goals
 
-
   ### 1. Define a variable
+
+  "Saving" to a variable allows us to _save_ a result so we can use it again later.
+
+  Storing calculations to _temporary_ storage places is the heart of making efficient programs.
+
+  A variable is a container in which we can store values for later retreival.
+
   ### 2. Name variables in JavaScript
+
+  
+
   ### 3. Initialize variables in JavaScript
   ### 4. Identify when to use const, let, and var for declaring variables

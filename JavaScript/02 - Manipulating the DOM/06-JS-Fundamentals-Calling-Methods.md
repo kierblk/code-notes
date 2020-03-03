@@ -6,7 +6,7 @@
 
 ## Learning Goals 
 
-1. Define a JavaScript Method
+### 1. Define a JavaScript Method
 
 Let's consider the `document.querySelector` method.
 

@@ -1,5 +1,7 @@
 # [JS Fundamentals - Arrays](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/manipulating-the-dom/js-fundamentals-arrays)
 
+* [Arrays Lab](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/manipulating-the-dom/js-fundamentals-arrays-lab)
+
 ## Resources
 
 1. [MDN - Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)

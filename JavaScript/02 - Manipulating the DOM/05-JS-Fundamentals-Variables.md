@@ -1,5 +1,7 @@
 # [JS Fundamentals: Variables](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/manipulating-the-dom/js-fundamentals-variables)
 
+* [Variables Lab](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/manipulating-the-dom/js-fundamentals-variables-lab)
+
 ## Resources
 
   1. [MDN - Language basics crash course: Variables](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#Variables)

@@ -513,11 +513,95 @@ cards;
 ```
 
 However, using the computed member access operator (`[]`) is still _destructive_
-— it modifies the original `Array`. There's a _nondestructive_ way to replace or
+— it modifies the original `Array`. 
+
+### 9. Destructure Arrays with "Spread" (`...`) Operator
+
+There's a _nondestructive_ way to replace or
 add items at arbitrary points within an `Array`, and it involves two of the
 concepts we learned earlier.
 
-### 9. Identify nested `Array`s
+#### Slicing and Spreading
 
+Combining `.slice()` and the spread operator allows us to replace elements
+_nondestructively_, leaving the original `Array` unharmed:
 
-### 10. Destructure Arrays with "Spread" (`...`) Operator
+```js
+const menu = ['Jalapeno Poppers', 'Cheeseburger', 'Fish and Chips', 'French Fries', 'Onion Rings'];
+
+const newMenu = [...menu.slice(0, 1), 'Veggie Burger', 'House Salad', 'Teriyaki Tofu', ...menu.slice(3)];
+
+menu;
+// => ["Jalapeno Poppers", "Cheeseburger", "Fish and Chips", "French Fries", "Onion Rings"]
+
+newMenu;
+// => ["Jalapeno Poppers", "Veggie Burger", "House Salad", "Teriyaki Tofu", "French Fries", "Onion Rings"]
+```
+
+### 10. Identify nested `Array`s
+
+In the above 'slicing and spreading' example, if we don't use the spread
+operator we're left with an interesting result:
+
+```js
+const menu = ['Jalapeno Poppers', 'Cheeseburger', 'Fish and Chips', 'French Fries', 'Onion Rings'];
+
+const newMenu = [menu.slice(0, 1), 'Veggie Burger', 'House Salad', 'Teriyaki Tofu', menu.slice(3)];
+
+newMenu;
+// => [["Jalapeno Poppers"], "Veggie Burger", "House Salad", "Teriyaki Tofu", ["French Fries", "Onion Rings"]]
+```
+
+That's right — an `Array` can contain elements of **any** data type, including
+**other `Array`s**:
+
+```js
+const egregiouslyNestedArray = ['How', ['deep', ['can', ['we', ['go', ['?'], 'Pretty'], 'dang'], 'deep,'], 'it'], 'seems.'];
+```
+
+Pop that into your browser's JS console and check out the nesting:
+
+![`egregiouslyNestedArray` in the JS console](https://curriculum-content.s3.amazonaws.com/web-development/js/data-structures/arrays-readme/egregiouslyNestedArray_in_JS_console.png)
+
+It's great that `Array`s allow us to store other `Array`s inside them, but this is a
+terrible way to represent a deeply nested data structure. In general, try to
+keep your `Array`s to no more than two levels deep. Two levels is perfect for
+representing two-dimensional things like a tic-tac-toe board:
+
+```js
+const board = [
+  ['X', 'O', ' '],
+  [' ', 'X', 'O'],
+  ['X', ' ', 'O']
+];
+
+board;
+// => [["X", "O", " "], [" ", "X", "O"], ["X", " ", "O"]]
+```
+
+The cool thing about representing a game board like that is in how we can access
+the different squares by specifying coordinates. The first `[]` operator grabs
+the row that we want, top (`board[0]`), middle (`board[1]`), or bottom
+(`board[2]`). For example:
+
+```js
+board[1];
+// => [" ", "X", "O"]
+```
+
+The second `[]` operator specifies the square within that row, left
+(`board[1][0]`), middle (`board[1][1]`), or right (`board[1][2]`). For example:
+
+```js
+board[0][0];
+// => "X"
+
+board[0][2];
+// => " "
+
+board[2][2];
+// => "O"
+```
+
+Effectively, we're using X and Y coordinates to refer to data within a two-
+dimensional structure.

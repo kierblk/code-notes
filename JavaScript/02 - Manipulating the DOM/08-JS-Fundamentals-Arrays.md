@@ -10,11 +10,11 @@
 
 ## Learning Goals
 
-### Define "data structure"
+### 1. Define "data structure"
 
 A **data structure** is a means for associating and organizing information. Outside of the programming world, we use data structures all the time. For example, we might have a shopping list of the items we need to buy on our next grocery run or an address book for organizing contact information.
 
-### Describe collections and `Array`s
+### 2. Describe collections and `Array`s
 
 `getElementById()` returns a **singular** element whereas `getElementsByTagName()` and `getElementsByClassName()` return **all elements** that match the tag or class name.
 
@@ -30,7 +30,7 @@ We can then get a single member of a collection by providing an element a number
     document.getElementsByTagName('main')[0]
 ```
 
-### Create `Array`s
+### 3. Create `Array`s
 
 An `Array` is a list, with the items listed in a particular order, surrounded by
 square brackets (`[]`):
@@ -98,7 +98,7 @@ really easy way to access each individual number. For example, we might want to
 assign `powerBall` to the sixth number. Luckily, `Array`s offer a simple syntax
 for accessing individual members.
 
-### Access the elements in an `Array`
+### 4. Access the elements in an `Array`
 
 Every element in an `Array` is assigned a unique index value that corresponds to
 its place within the collection. The first element in the `Array` is at index `0`,
@@ -147,7 +147,7 @@ JavaScript engine _computed_ the value of that expression to determine which
 element we were trying to access. In this case, `alphabet.length - 1` evaluated
 to `25`, so `alphabet[alphabet.length - 1]` became `alphabet[25]`.
 
-### Add elements to an `Array`
+### 5. Add elements to an `Array`
 
 JavaScript allows us to manipulate the members in an `Array` in a number of ways.
 
@@ -223,7 +223,7 @@ allCats;
 // => ["Hobbes", "Felix", "Tom", "Garfield"]
 ```
 
-### Remove elements from an `Array`
+### 6. Remove elements from an `Array`
 
 As complements for `.push()` and `.unshift()`, respectively, we have `.pop()`
 and `.shift()`.
@@ -259,15 +259,15 @@ days;
 Notice that the return value for the `.pop()` and `.shift()` methods is the
 element that was removed.
 
-### Create non-destructive copies of Arrays
+### 7. Create non-destructive copies of Arrays
 
-### `.slice()`
+#### `.slice()`
 
 To remove elements from an `Array` nondestructively (without manipulating the
 original `Array`), we can use the `.slice()` method. Just as the name implies, the
 `.slice()` method returns a portion, or **slice**, of an `Array`.
 
-#### With No Arguments
+##### With No Arguments
 
 If we don't provide any arguments, `.slice()` will return a copy of the original
 `Array` with all elements intact:
@@ -365,7 +365,7 @@ from the last element in the `Array` instead of the first.
 code and having to look up it's parameters every time is a major time-loss. Memorize its
 call format now.***
 
-### `.splice()`
+#### `.splice()`
 
 While `.slice()` allows us to return a piece of an `Array` without mutating the
 original (nondestructive), `.splice()` performs destructive actions. Let's
@@ -440,7 +440,7 @@ days;
 // => ["Mon", "Tue", "Sat", "Sun"]
 ```
 
-### Replace elements in an `Array`
+### 8. Replace elements in an `Array`
 
 #### `.splice()` with 3+ arguments
 
@@ -517,7 +517,7 @@ However, using the computed member access operator (`[]`) is still _destructive_
 add items at arbitrary points within an `Array`, and it involves two of the
 concepts we learned earlier.
 
-### Identify nested `Array`s
+### 9. Identify nested `Array`s
 
 
-### Destructure Arrays with "Spread" (`...`) Operator
+### 10. Destructure Arrays with "Spread" (`...`) Operator

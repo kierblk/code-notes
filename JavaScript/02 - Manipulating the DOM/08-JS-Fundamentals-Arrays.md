@@ -179,7 +179,7 @@ cities;
 Notice that the value returned by both methods is the `length` of the updated
 `Array`.
 
-##### Destructive vs. Nondestructive
+#### Destructive vs. Nondestructive
 
 Both `.push()` and `.unshift()` update or _mutate_ the original `Array`, adding
 elements directly to it. Operations that modify the original collection are

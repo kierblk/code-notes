@@ -495,6 +495,8 @@ were removed, and we're telling it to remove `0` elements.
 Keep playing around with `.splice()` in your browser's console to get
 comfortable with it.
 
+#### Using the Computed Member Access Operator to Replace Elements
+
 If we only need to replace a single element in an `Array`, there's a simpler
 solution than `.splice()`:
 

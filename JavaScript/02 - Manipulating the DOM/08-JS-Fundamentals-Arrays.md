@@ -259,6 +259,8 @@ days;
 Notice that the return value for the `.pop()` and `.shift()` methods is the
 element that was removed.
 
+### Create non-destructive copies of Arrays
+
 ### `.slice()`
 
 To remove elements from an `Array` nondestructively (without manipulating the
@@ -515,9 +517,7 @@ However, using the computed member access operator (`[]`) is still _destructive_
 add items at arbitrary points within an `Array`, and it involves two of the
 concepts we learned earlier.
 
-### Create non-destructive copies of Arrays
-
-
-
 ### Identify nested `Array`s
+
+
 ### Destructure Arrays with "Spread" (`...`) Operator

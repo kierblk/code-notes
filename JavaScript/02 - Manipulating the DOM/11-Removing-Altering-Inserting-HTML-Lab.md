@@ -1,5 +1,13 @@
 # [Removing, Altering, and Inserting HTML Lab](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/manipulating-the-dom/removing-altering-and-inserting-html-lab)
 
+## Resources
+
+- [document.createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- [removeChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+- [element.remove()](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+- [classList Property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+
 ## Introduction
 
 In this lab, you will be inserting, altering, and removing DOM nodes. You will be doing the following:

@@ -136,3 +136,5 @@ document.getElementById('app').querySelectorAll('ul.ranked-list li')
 We'd get back a list of Nodes corresponding to: `<li>1</li>, <li>2</li>, <li>10</li>, <li>11</li>`.
 
 ## 2. Change value of targeted DOM nodes
+
+See next lesson/notes: **Removing, Altering, and Inserting HTML Lab**

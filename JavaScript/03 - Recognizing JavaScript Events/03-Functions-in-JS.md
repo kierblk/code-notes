@@ -159,3 +159,46 @@ function exerciseDog(dogName="ERROR the Broken Dog", dogBreed="Sick Puppy") {
 ```
 
 ## 6. Demonstrate _return values_
+
+Sometimes it's helpful to send something _back_ to the place where the function
+was _called_. 
+
+It's like a "summary" of what happened in the function. 
+
+In real life, we expect the function "bake a cake" to return a "cake". Or we expect
+"Visit the ATM" to return paper money. Functions in JavaScript can also return
+things.  Consider:
+
+```javascript
+
+let weatherToday = "Rainy";
+
+function exerciseDog(dogName, dogBreed) {
+  if (weatherToday === "Rainy") {
+    return `${dogName} did not exercise due to rain`;
+  }
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+  console.log(`Walk to the park ${dogName} the ${dogBreed}`);
+  console.log(`Throw the fribsee for ${dogName} the ${dogBreed}`);
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  return `${dogName} is happy and tired!`
+}
+
+let result = exerciseDog("Byron", "poodle");
+console.log(result); // => "Byron did not exercise due to rain"
+```
+
+In JavaScript, when a function is _called_, when it encounters a `return`
+statement it "returns" the value of the thing that appears to the right of the word.
+
+The thing could be a `String`, a `Number` or an _expression_ like `1 + 1` (which returns, `2`, sensibly enough).
+
+When a `return` is reached in the code, no further code behavior happens.
+
+Above, if `weatherToday` is `truthy` **the only thing that happens** is the
+evaluation of the `String`.
+
+Return values can be saved to variables. Or they can be used as inputs to other
+functions.

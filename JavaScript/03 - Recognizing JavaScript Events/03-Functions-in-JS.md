@@ -81,8 +81,35 @@ error for JavaScript.
 
 ## 4. Define "Generalization"
 
-
+Looking at our abstraction, `exerciseByronThePoodle()`, it's pretty concrete, the
+opposite of abstract. It's concrete because it only works for Byron the Poodle.
+Our function would be more _abstract_ if it were written for _all dogs_ and it
+just-so-happened that Byron the Poodle was one of the eligible things to
+undergo the function's processes. The process of moving from _concrete_ to
+_abstract_ is called "generalization" (or "abstraction," by some).
 
 ## 5. Demonstrate "Generalization" by using _parameters_ and _arguments_
+
+Let's make `exerciseByronThePoodle()` more general.
+
+Looking at the `console.log()` statements, we repeatedly refer to a dog's name and a dog's breed. 
+
+Both of these are `Strings`. If we were to write them as JavaScript
+variables inside the function we might write `dogName` and `dogBreed`.
+
+Let's use `String` interpolation to generalize the _body_ of our function
+
+```javascript
+function exerciseByronThePoodle() {
+  let dogName = "Byron";
+  let dogBreed = "poodle";
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+  console.log(`Walk to the park ${dogName} the ${dogBreed}`);
+  console.log(`Throw the fribsee for ${dogName} the ${dogBreed}`);
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
+}
+```
 
 ## 6. Demonstrate _return values_

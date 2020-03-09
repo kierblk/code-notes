@@ -92,7 +92,7 @@ _abstract_ is called "generalization" (or "abstraction," by some).
 
 Let's make `exerciseByronThePoodle()` more general.
 
-Looking at the `console.log()` statements, we repeatedly refer to a dog's name and a dog's breed. 
+Looking at the `console.log()` statements, we repeatedly refer to a dog's name and a dog's breed.
 
 Both of these are `Strings`. If we were to write them as JavaScript
 variables inside the function we might write `dogName` and `dogBreed`.
@@ -100,9 +100,7 @@ variables inside the function we might write `dogName` and `dogBreed`.
 Let's use `String` interpolation to generalize the _body_ of our function
 
 ```javascript
-function exerciseByronThePoodle() {
-  let dogName = "Byron";
-  let dogBreed = "poodle";
+function exerciseByronThePoodle(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
   console.log(`Leash ${dogName} the ${dogBreed}`);
   console.log(`Walk to the park ${dogName} the ${dogBreed}`);
@@ -110,6 +108,54 @@ function exerciseByronThePoodle() {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   console.log(`Unleash ${dogName} the ${dogBreed}`);
 }
+```
+
+Using interpolation, we've declared parameters for this function.
+
+ _Parameters_ are locally-scoped variables that are usable ("scoped") to inside the function.
+
+In our example, our variables `dogName` and `dogBreed` should become _parameters_.  They're defined inside of the _function declaration's_ `()`.
+
+```javascript
+function exerciseDog(dogName, dogBreed) {
+...
+...
+```
+
+JavaScript will assign the _arguments_ of "Byron" and "poodle" to the
+_parameters_ `dogName` and `dogBreed` when this function is called like so:
+
+```javascript
+function exerciseDog("Byron", "poodle");
+```
+
+When the function is _called_, it assigns `dogName = "Byron"` and `dogBreed =
+"poodle"`. The parameters are usable inside the function body _as if_ they had
+been set with `let` inside the function.
+
+Because our function is now more _general_, we can:
+
+```javascript
+exerciseDog("Boo", "puggle");
+exerciseDog("Jojo", "mutt");
+exerciseDog("Emmeline", "bernedoodle");
+```
+
+If expected arguments aren't given, the parameters won't be set. The
+parameters' values will be `undefined`.  This is just like non-initialized
+variables; set them else they're `undefined`.  **This will not cause an error
+in JavaScript**. This can lead to humorous bugs like:
+
+```text
+"Wake undefined the undefined"  // From: console.log("Wake ${dogName} the ${dogBreed}");
+```
+
+We can assign default arguments to our parameters. While it's not as attention-
+grabbing as a real error, it's a helpful signal that we've run off the rails.
+
+```javascript
+function exerciseDog(dogName="ERROR the Broken Dog", dogBreed="Sick Puppy") {
+...
 ```
 
 ## 6. Demonstrate _return values_

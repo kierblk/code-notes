@@ -50,3 +50,29 @@ console.log(
   "This console.log() fires when index.js loads - before DOMContentLoaded is triggered"
 );
 ```
+
+## Conclusion
+
+JavaScript provides use the powerful ability to update webpage content without
+refreshing. We can, for instance, have a page with some basic HTML
+structure and use JavaScript to fill in the content, enabling the possibility of
+dynamic webpages.
+
+This sort of action, however, will only work if the HTML content is actually
+loaded on the page. The `DOMContentLoaded` event ensures that our JavaScript
+code is being executed immediately after the HTML is finished loading.
+
+## Addendum
+
+The `DOMContentLoaded` event is now a widely accepted standard. Modern web
+development, however, provides us with additional choices for setting up when we
+want our JavaScript to execute. For example, HTML5 now has a [`defer`][defer]
+attribute for use in `<script>` tags:
+
+```html
+<script src="index.js" defer></script>
+```
+
+This functions in a similar way to `DOMContentLoaded` - the JavaScript code
+stored in `index.js` will be loaded up but won't execute until the HTML page
+completely loads.

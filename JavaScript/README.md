@@ -44,3 +44,9 @@
 - [GitHub Repo](https://github.com/learn-co-students/online-web-pt-081219/tree/master/21-js-events)
 
 ## Communicating with the Server
+
+### Lecture Video
+
+- [Using Fetch](https://youtu.be/1oKC_3HrgWQ)
+- [GitHub Repo](https://github.com/learn-co-students/online-web-pt-081219/tree/master/22-using-fetch)
+

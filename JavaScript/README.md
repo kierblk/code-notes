@@ -1,9 +1,8 @@
 # JavaScript Notes
 
-## [Defining Front-End Web Programming](https://github.com/saramccombs/code-notes/tree/master/JavaScript/01%20-%20Defining%20Front-End%20Web%20Programming)
+## 01 - Defining Front-End Web Programming
 
-
-## [Manipulating the DOM](https://github.com/saramccombs/code-notes/tree/master/JavaScript/02%20-%20Manipulating%20the%20DOM)
+## 02 - Manipulating the DOM
 
 1. Introduction to DOM
 2. Introduction to DOM and Getting Started with JavaScript
@@ -23,7 +22,7 @@
 - [Intro to DOM & DOM Manipulation](https://youtu.be/DP0oRgPCrE4)
 - [GitHub Repo](https://github.com/learn-co-students/online-web-pt-081219/tree/master/20-intro-to-dom-and-dom-manipulation)
 
-## [Recognizing JavaScript Events](https://github.com/saramccombs/code-notes/tree/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events)
+## 03 - Recognizing JavaScript Events
 
 1. JS Eventing
 2. JS Event Listening
@@ -43,10 +42,27 @@
 - [JS Events](https://youtu.be/obrjb6T8ChQ)
 - [GitHub Repo](https://github.com/learn-co-students/online-web-pt-081219/tree/master/21-js-events)
 
-## Communicating with the Server
+## 04 - Communicating with the Server
 
 ### Lecture Video
 
 - [Using Fetch](https://youtu.be/1oKC_3HrgWQ)
 - [GitHub Repo](https://github.com/learn-co-students/online-web-pt-081219/tree/master/22-using-fetch)
 
+## 05 - Putting it All Together
+
+## 06 - Rails as an API
+
+## 07 - Formalizing JS: Data Types, Comparisons, and Conditionals
+
+## 08 - ES6 Syntax Sugar
+
+## 09 - Advanced Function Usage
+
+## 10 - OO in JavaScript
+
+## 11 - OO JS: Inheritance
+
+## 12 - OO JS: Prototype Inheritance
+
+## 13 - JS Project Mode

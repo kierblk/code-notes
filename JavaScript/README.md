@@ -26,18 +26,18 @@
 
 ## 03 - Recognizing JavaScript Events
 
-1. JS Eventing
-2. JS Event Listening
-3. Functions in JS
-4. Functions as First-Class Data - Do Behavior
-5. Functions as First-Class Data - Arrays
-6. Acting on Events
-7. JS Document Onload
-8. JS Fundamentals - Scope
-9. JS Fundamentals - Scope Chain
-10. JS Fundamentals - Lexical Scoping
-11. JS Fundamentals - Hoisting
-12. Eventing Master and Quiz
+1. [JS Eventing](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.01-JS-Eventing.md)
+2. [JS Event Listening](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.02-JS-Event-Listening.md)
+3. [Functions in JS](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.03-Functions-in-JS.md)
+4. [Functions as First-Class Data - Do Behavior](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.04-Functions-as-First-Class-Data-Do-Behavior.md)
+5. [Functions as First-Class Data - Arrays](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.05-Functions-as-First-Class-Data-Arrays.md)
+6. [Acting on Events](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.06-Acting-on-Events.md)
+7. [JS Document Onload](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.07-JS-Document-Onload.md)
+8. [JS Fundamentals - Scope](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.08-JS-Fundamentals-Scope.md)
+9. [JS Fundamentals - Scope Chain](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.09-JS-Fundamentals-Scope-Chain.md)
+10. [JS Fundamentals - Lexical Scoping](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.10-JS-Fundamentals-Lexical-Scoping.md)
+11. [JS Fundamentals - Hoisting](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.11-JS-Fundamentals-Hoisting.md)
+12. [Eventing Master and Quiz](https://github.com/saramccombs/code-notes/blob/master/JavaScript/03%20-%20Recognizing%20JavaScript%20Events/03.12-Eventing-Master-and-Quiz.md)
 
 ### Lecture Video
 

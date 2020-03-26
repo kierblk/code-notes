@@ -46,6 +46,8 @@
 
 ## 04 - Communicating with the Server
 
+TODO: Update with TOC for section 4
+
 ### Lecture Video
 
 - [Using Fetch](https://youtu.be/1oKC_3HrgWQ)
@@ -53,7 +55,11 @@
 
 ## 05 - Putting it All Together
 
+TODO: Update with TOC for section 5
+
 ## 06 - Rails as an API
+
+TODO: Update with TOC for section 6
 
 ## 07 - Formalizing JS: Data Types, Comparisons, and Conditionals
 

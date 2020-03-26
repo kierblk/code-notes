@@ -6,18 +6,18 @@
 
 ## 02 - Manipulating the DOM
 
-1. Introduction to DOM
-2. Introduction to DOM and Getting Started with JavaScript
-3. DOM Editing Lab
-4. Changing the DOM with DevTools
-5. JS Fundamentals - Variables
-6. JS Fundamentals - Calling Methods
-7. The DOM Tree
-8. JS Fundamentals - Arrays
-9. JS Fundamentals - Looping and Iteration
-10. `querySelector` Methods
-11. Removing, Altering, and Inserting HTML Lab
-12. DOM Master and Quiz
+1. [Introduction to DOM](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.01-Intro-the-DOM.md)
+2. [Introduction to DOM and Getting Started with JavaScript](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.02-Intro-the-DOM-to-Get-Started.md)
+3. [DOM Editing Lab](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.03-DOM-Editing-Lab.md)
+4. [Changing the DOM with DevTools](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.04-Changing-the-DOM-with-DevTools.md)
+5. [JS Fundamentals - Variables](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.05-JS-Fundamentals-Variables.md)
+6. [JS Fundamentals - Calling Methods](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.06-JS-Fundamentals-Calling-Methods.md)
+7. [The DOM Tree](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.07-The-DOM-Tree.md)
+8. [JS Fundamentals - Arrays](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.08-JS-Fundamentals-Arrays.md)
+9. [JS Fundamentals - Looping and Iteration](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.09-JS-Fundamentals-Looping-Iteration.md)
+10. [`querySelector` Methods](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.10-querySelector-Methods.md)
+11. [Removing, Altering, and Inserting HTML Lab](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.11-Removing-Altering-Inserting-HTML-Lab.md)
+12. [DOM Master and Quiz](https://github.com/saramccombs/code-notes/blob/master/JavaScript/02%20-%20Manipulating%20the%20DOM/02.12-DOM-Master-and-Quiz.md)
 
 ### Lecture Video
 

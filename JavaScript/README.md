@@ -2,7 +2,7 @@
 
 ## 01 - Defining Front-End Web Programming
 
-1. [Notes]()
+1. [Notes](https://github.com/saramccombs/code-notes/blob/master/JavaScript/01%20-%20Defining%20Front-End%20Web%20Programming/01.md)
 
 ## 02 - Manipulating the DOM
 

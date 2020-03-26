@@ -57,6 +57,13 @@
 
 ## 07 - Formalizing JS: Data Types, Comparisons, and Conditionals
 
+1. [JS Fundamentals - Data Types](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.01-JS-Fundamentals-Data-Types.md)
+2. [JS Data Types Quiz](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.02-JS-Data-Types-Quiz.md)
+3. [JS Fundamentals - Arithmetic](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.03-JS-Fundamentals-Arithmatic.md)
+4. [JS Fundamentals - Comparisons](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.04-JS-Fundamentals-Comparisons.md)
+5. [JS Fundamentals - Conditionals](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.05-JS-Fundamentals-Conditionals.md)
+6. [JS Fundamentals - Logical Operators](https://github.com/saramccombs/code-notes/blob/master/JavaScript/07%20-%20Formalizing%20JS:Data%20Types%2C%20Comparisons%2C%2C%20%26%20Conditionals/07.06-JS-Fundamentals-Logical-Operators.md)
+
 ## 08 - ES6 Syntax Sugar
 
 ## 09 - Advanced Function Usage

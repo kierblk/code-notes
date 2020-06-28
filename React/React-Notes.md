@@ -24,6 +24,8 @@ class Starship extends React.Component {
 export default Starship
 ```
 
+React classes need at least one method inside of it, that method is `render()`. `render()` determines how and what HTML/DOM elements get rendered out to the page. 
+
 ## Mounting
 
 With React, we don't interact with the DOM the same way we would do with vanilla JS. However, there is one time we absolutely need to... When we mount the entire application to the page.
